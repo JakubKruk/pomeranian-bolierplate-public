@@ -1,0 +1,69 @@
+.font-test-family {
+  font-family: Chilanka;
+}
+/* .variable-string-placeholder p span */
+.variable-string-placeholder {
+  margin-left: 5px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.date {
+  font-size: 12px;
+  font-weight: light;
+  margin-bottom: 20px;
+}
+
+
+.h3
+{
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 20px;
+
+}
+
+.paragraph 
+{
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.sup {
+  vertical-align: sup;
+  font-size: smaller;
+}
+
+.sup {
+  vertical-align: sup;
+  font-size: smaller;
+}
+
+.italics 
+{
+font-style: italic;
+}
+
+.quote::before
+{
+  content: open-quote;
+}
+
+.quote::after
+{
+  content: close-quote;
+}
+
+.bold
+{
+  font-weight: bold;
+}

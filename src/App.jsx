@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
 
+
 import { NotFound } from './App/Components/NotFound/NotFound';
 
 import { Blocks } from './App/Blocks';

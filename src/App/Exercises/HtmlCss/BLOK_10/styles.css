@@ -1,0 +1,49 @@
+div.selectors p 
+{
+  font-size: 50px;
+  text-allign: center;
+}
+
+div p:last-child {
+  font-size: 25px;
+  color: grey;
+}
+
+div p:last-child:after {
+  font-size: 25px;
+  content: "Przeczytaj więcej >";
+  
+}
+
+.my-custom-arrow {
+
+  color: red;
+}
+  
+a[href*="#"] {
+  border: red 1px solid;
+}
+
+div[data-position=""]::after {
+  content: '.' attr(data-link) '.';
+}
+
+div[data-position]::after
+{vertical-align: super;
+content: 'xyz'attr(data-position) '.'}
+ 
+div.hoverable {
+  transform: scale(1,1) translate (90px,100px)
+  
+}
+
+div.hoverable-2 {
+
+  color: red
+ 
+}
+
+
+.blogspots .blogpost h1 {
+
+}

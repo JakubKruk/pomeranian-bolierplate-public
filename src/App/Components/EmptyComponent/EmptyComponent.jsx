@@ -1,5 +1,5 @@
 import './styles.css';
 
-export const EmptyComponent = () => {
-  return <div>Change me</div>;
+export const Logo = () => {
+  return <div>Logo</div>;
 };
